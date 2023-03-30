@@ -34,7 +34,7 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - Garmin LIDAR-Lite V3 optical distance sensor
 - BN880 GPS/GLONASS/Beidou positioning sensor
 - INA260 voltage, current, power sensor
-- Analog Force-Sensitive Resistor (FSR) - Alpha MF02A-N-221-A01
+- Force-Sensitive Resistor (FSR) - Alpha MF02A-N-221-A01 (weight)
 
 ### User Interface Components
 - Two 128x64 OLED displays
