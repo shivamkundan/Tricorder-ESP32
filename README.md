@@ -4,17 +4,17 @@ A portable low-power sensor server for my tricorder project
 Using the Adafruit Feather ESP32 V2 microcontroller board to read various sensor data through I2C, digital, and analog read. Programmed in C & C++ via Arduino IDE. 
 
 ## Architecture
-The MCU board, sensors, and other electrical components are placed on three custom double-layered PCBs, stacked vertically to make one complete circuit. Modular design allows for each PCB to also be used independently when needed.
+The MCU board, sensors, and other electrical components are placed on three custom double-layered PCBs, stacked vertically to make one complete circuit. Modular design allows for each PCB to be used independently when needed.
 
 Two 128x64 OLED displays provide status (battery percentage, charging time, current GPS time, etc.) and basic sensor readings. Four capacitive touch pads on the PCB allow for a simple and quick menu-based user interface. 
 
 ## Power Supply
 The device is powered by its own 2500mAh LiPo battery and power supply + charging circuitry. Uses a buck/boost converter to regulate power safely. NMOS transistors switch power to unused circuit components. It also features a deep sleep mode for conserving power.
 
-Can measure its own current and voltage supply or be used as a multimeter for reading external current, voltage, and resistance.
+Can measure its own current and voltage supply or be used as a multimeter for reading external current, voltage, and power.
 
 ## Communication
-A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth) and visualizes the requested data in real time. The RaspberryPi also connects to a Software Defined Radio (SDR) module and an IR-CUT camera. 
+A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth) and visualizes the requested data in real time. The RaspberryPi also integrates a Software Defined Radio (SDR) module and an IR-CUT camera. 
 
 ## Parts
 
@@ -53,5 +53,6 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - Stacking headers
 - 2500mAh LiPo battery with 10KΩ thermistor
 - Magnetic pin back (for camera)
+- IR LED blaster
 - Adafruit USB Type C breakout board
 - Custom double-layer PCBs (vendor: jlcpcb)
