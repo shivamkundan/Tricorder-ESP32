@@ -56,3 +56,7 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - IR LED blaster
 - Adafruit USB Type C breakout board
 - Custom double-layer PCBs (vendor: jlcpcb)
+
+[![alt text](mcu_side_view.png)]
+
+[![alt text](pics/mcu_side_view.png)]
