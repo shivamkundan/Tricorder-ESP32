@@ -30,7 +30,7 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - Modern Devices Rev. C wind speed sensor
 - BNO055 9-DOF absolute orientation inertial measurement unit
 - PMSA003I particulate matter (dust) sensor
-- DFRobot Geiger counter
+- DFRobot Geiger counter (ionizing radiation)
 - Garmin LIDAR-Lite V3 optical distance sensor
 - BN880 GPS/GLONASS/Beidou positioning sensor
 - INA260 voltage, current, power sensor
