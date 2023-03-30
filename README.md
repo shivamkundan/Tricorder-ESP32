@@ -57,6 +57,6 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - Adafruit USB Type C breakout board
 - Custom double-layer PCBs (vendor: jlcpcb)
 
-[![Tricorder-MCU](pics/mcu_side_view.png)]
-
+# Images
+## Front-Side View
 <img src="pics/mcu_side_view.png"  width="50%" height="50%">
