@@ -1,5 +1,5 @@
 # Tricorder-ESP32
-A portable sensor server for my tricorder project
+A portable low-power sensor server for my tricorder project
 ## About
 Using the Adafruit Feather ESP32 V2 microcontroller board to read various sensor data through I2C, digital, and analog read. 
 
