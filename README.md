@@ -54,3 +54,4 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - 2500mAh LiPo battery with 10K thermistor
 - Magnetic pin back (for camera)
 - Adafruit USB Type C breakout board
+- Custom double-layer PCBs (jlcpcb)
