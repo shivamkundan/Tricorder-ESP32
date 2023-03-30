@@ -1,7 +1,7 @@
 # Tricorder-ESP32
 A portable low-power sensor server for my tricorder project
 ## About
-Using the Adafruit Feather ESP32 V2 microcontroller board to read various sensor data through I2C, digital, and analog read. 
+Using the Adafruit Feather ESP32 V2 microcontroller board to read various sensor data through I2C, digital, and analog read. Programmed in C & C++ via Arduino IDE. 
 
 ## Architecture
 The MCU board, sensors, and other electrical components are placed on three custom double-layered PCBs, stacked vertically to make one complete circuit. Modular design allows for each PCB to also be used independently when needed.
@@ -46,12 +46,12 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 - LC709203F LiPo fuel gauge + battery monitor
 - LTC4311 active I2C extender and terminator
 - ISO1540 Bidirectional I2C Isolator
-- Resistors
+- Resistors (assorted)
 - Transistors (NMOS)
 - Slide switches (SPDT)
-- Push buttons
+- Momentary push buttons
 - Stacking headers
-- 2500mAh LiPo battery with 10K thermistor
+- 2500mAh LiPo battery with 10KΩ thermistor
 - Magnetic pin back (for camera)
 - Adafruit USB Type C breakout board
-- Custom double-layer PCBs (jlcpcb)
+- Custom double-layer PCBs (vendor: jlcpcb)
