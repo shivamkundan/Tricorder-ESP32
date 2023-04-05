@@ -1,5 +1,9 @@
+/*
+This file contains code for displaying each sensor's "page(s)".
+Each function defines the layout, text size, etc., depending upon the best way to view the given sensor's readings.
+*/
 
-// ------------------------------------------------- //
+// ---------------------- GPS ---------------------- //
 void gps_screen(uint8_t num_satellites){
 
 
@@ -69,7 +73,6 @@ void gps_screen(uint8_t num_satellites){
 	display_R.print("GPS");
 }
 
-
 void gps_magnetometer_screen(){
 	display_R.setTextSize(1);
 	int16_t x1, y1;
@@ -81,6 +84,7 @@ void gps_magnetometer_screen(){
 	display_R.setCursor(0, 16);
 	display_R.print(read_gps_magnetometer());
 }
+// ------------------------------------------------- //
 
 void multimeter_screen(){
 	display_R.setTextSize(1);
@@ -94,7 +98,6 @@ void multimeter_screen(){
 	// display_R.setCursor(1,17);
 	display_R.print(read_current_sensor());
 }
-
 
 void battery_screen(){
 	display_R.setTextSize(1);
@@ -151,7 +154,6 @@ void vis_ir_screen(){
 	display_R.print(read_vis_ir());
 }
 
-
 void uv_screen(){
 	display_R.setTextSize(1);
 	int16_t x1, y1;
@@ -177,7 +179,6 @@ void spectrometer_screen(){
 	display_R.print(read_spectrometer());
 }
 
-
 void temp_humid_screen(){
 	display_R.setTextSize(1);
 	int16_t x1, y1;
@@ -189,7 +190,6 @@ void temp_humid_screen(){
 	display_R.setCursor(0, 16);
 	display_R.print(read_temp_humid());
 }
-
 
 void pressure_screen(){
 	display_R.setTextSize(1);
@@ -303,6 +303,8 @@ void radiation_screen(){
 	// display_R.setTextSize(1);
 	// display_R.print("waiting");
 }
+
+// -------------------- IMU ------------------------ //
 void imu_orientation_screen(){
 	display_R.setTextSize(1);
 	int16_t x1, y1;
@@ -314,6 +316,7 @@ void imu_orientation_screen(){
 	display_R.setCursor(0, 16);
 	display_R.print(read_orientation());
 }
+
 void imu_lin_acc_screen(){
 	display_R.setTextSize(1);
 	int16_t x1, y1;
