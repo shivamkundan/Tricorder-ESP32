@@ -59,4 +59,4 @@ A RaspberryPi communicates with the ESP32 through serial link (USB or bluetooth)
 
 # Images
 ## Front-Side View
-<img src="pics/mcu_side_view.png"  width="50%" height="50%">
+<img src="pics/mcu_side_view.png"  width="60%" height="60%">
