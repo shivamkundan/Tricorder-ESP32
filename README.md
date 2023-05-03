@@ -1,5 +1,5 @@
 # Tricorder-ESP32
-A portable low-power sensor server for my tricorder project
+A portable low-power sensor server for my tricorder project (https://youtu.be/AKBvDRSF7Xw)
 
 <img src="pics/mcu_side_view.png"  width="60%" height="60%">
 
