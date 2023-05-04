@@ -3,7 +3,7 @@ A portable low-power sensor server for my tricorder project (https://youtu.be/AK
 
 <img src="pics/mcu_side_view.png"  width="60%" height="60%">
 
-(front side-view)
+(front corner view)
 
 ## About
 Using the Adafruit Feather ESP32 V2 microcontroller board to read various sensor data through I2C, digital, and analog read. Programmed in C & C++ via Arduino IDE.
